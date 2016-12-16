@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\user\Desktop\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\Ground.xnb</Output>
-      <Time>2016-12-14T17:06:38.2271675-06:00</Time>
+      <Output>H:\XNA\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\Ground.xnb</Output>
+      <Time>2016-12-16T13:11:07.3066034-06:00</Time>
     </Item>
     <Item>
       <Source>Ammo.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\user\Desktop\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\Ammo.xnb</Output>
-      <Time>2016-12-14T17:06:38.029036-06:00</Time>
+      <Output>H:\XNA\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\Ammo.xnb</Output>
+      <Time>2016-12-16T13:11:06.6815484-06:00</Time>
     </Item>
     <Item>
       <Source>TargetCrosshair.png</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\user\Desktop\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\TargetCrosshair.xnb</Output>
-      <Time>2016-12-14T17:06:38.8836013-06:00</Time>
+      <Output>H:\XNA\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\TargetCrosshair.xnb</Output>
+      <Time>2016-12-16T13:11:08.25981-06:00</Time>
     </Item>
     <Item>
       <Source>crosshair.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\user\Desktop\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\crosshair.xnb</Output>
-      <Time>2016-12-14T17:06:38.0830721-06:00</Time>
+      <Output>H:\XNA\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\crosshair.xnb</Output>
+      <Time>2016-12-16T13:11:06.853439-06:00</Time>
     </Item>
     <Item>
       <Source>SplashScreen.png</Source>
@@ -43,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\user\Desktop\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\SplashScreen.xnb</Output>
-      <Time>2016-12-14T17:06:38.8555828-06:00</Time>
+      <Output>H:\XNA\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\SplashScreen.xnb</Output>
+      <Time>2016-12-16T13:11:08.1504235-06:00</Time>
     </Item>
     <Item>
       <Source>Square.png</Source>
@@ -52,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\user\Desktop\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\Square.xnb</Output>
-      <Time>2016-12-14T17:06:38.8695925-06:00</Time>
+      <Output>H:\XNA\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\Square.xnb</Output>
+      <Time>2016-12-16T13:11:08.2129297-06:00</Time>
     </Item>
     <Item>
       <Source>Fireball.png</Source>
@@ -61,8 +61,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\user\Desktop\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\Fireball.xnb</Output>
-      <Time>2016-12-14T17:06:38.113092-06:00</Time>
+      <Output>H:\XNA\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\Fireball.xnb</Output>
+      <Time>2016-12-16T13:11:06.9628214-06:00</Time>
     </Item>
     <Item>
       <Source>Low.png</Source>
@@ -70,8 +70,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\user\Desktop\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\Low.xnb</Output>
-      <Time>2016-12-14T17:06:38.3312359-06:00</Time>
+      <Output>H:\XNA\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\Low.xnb</Output>
+      <Time>2016-12-16T13:11:07.5253772-06:00</Time>
     </Item>
     <Item>
       <Source>Out.png</Source>
@@ -79,8 +79,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\user\Desktop\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\Out.xnb</Output>
-      <Time>2016-12-14T17:06:38.7865375-06:00</Time>
+      <Output>H:\XNA\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\Out.xnb</Output>
+      <Time>2016-12-16T13:11:07.8535246-06:00</Time>
     </Item>
     <Item>
       <Source>City.png</Source>
@@ -88,8 +88,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\user\Desktop\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\City.xnb</Output>
-      <Time>2016-12-14T17:06:38.0430461-06:00</Time>
+      <Output>H:\XNA\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\City.xnb</Output>
+      <Time>2016-12-16T13:11:06.7440522-06:00</Time>
     </Item>
     <Item>
       <Source>CityDestroyed.png</Source>
@@ -97,8 +97,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\user\Desktop\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\CityDestroyed.xnb</Output>
-      <Time>2016-12-14T17:06:38.0600569-06:00</Time>
+      <Output>H:\XNA\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\CityDestroyed.xnb</Output>
+      <Time>2016-12-16T13:11:06.790932-06:00</Time>
     </Item>
     <Item>
       <Source>GameOver.png</Source>
@@ -106,8 +106,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\user\Desktop\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\GameOver.xnb</Output>
-      <Time>2016-12-14T17:06:38.2121575-06:00</Time>
+      <Output>H:\XNA\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\GameOver.xnb</Output>
+      <Time>2016-12-16T13:11:07.2440972-06:00</Time>
     </Item>
     <Item>
       <Source>Plane.png</Source>
@@ -115,8 +115,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\user\Desktop\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\Plane.xnb</Output>
-      <Time>2016-12-14T17:06:38.813555-06:00</Time>
+      <Output>H:\XNA\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\Plane.xnb</Output>
+      <Time>2016-12-16T13:11:07.9785391-06:00</Time>
     </Item>
     <Item>
       <Source>KillerSatellite.png</Source>
@@ -124,8 +124,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\user\Desktop\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\KillerSatellite.xnb</Output>
-      <Time>2016-12-14T17:06:38.24618-06:00</Time>
+      <Output>H:\XNA\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\KillerSatellite.xnb</Output>
+      <Time>2016-12-16T13:11:07.35348-06:00</Time>
     </Item>
     <Item>
       <Source>SmartBomb.png</Source>
@@ -133,8 +133,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\user\Desktop\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\SmartBomb.xnb</Output>
-      <Time>2016-12-14T17:06:38.8415735-06:00</Time>
+      <Output>H:\XNA\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\SmartBomb.xnb</Output>
+      <Time>2016-12-16T13:11:08.1035441-06:00</Time>
     </Item>
     <Item>
       <Source>altKillerSatellite.png</Source>
@@ -142,8 +142,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\user\Desktop\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\altKillerSatellite.xnb</Output>
-      <Time>2016-12-14T17:06:37.9920115-06:00</Time>
+      <Output>H:\XNA\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\altKillerSatellite.xnb</Output>
+      <Time>2016-12-16T13:11:06.5877916-06:00</Time>
     </Item>
     <Item>
       <Source>FireballWhite.png</Source>
@@ -151,8 +151,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\user\Desktop\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\FireballWhite.xnb</Output>
-      <Time>2016-12-14T17:06:38.181137-06:00</Time>
+      <Output>H:\XNA\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\FireballWhite.xnb</Output>
+      <Time>2016-12-16T13:11:07.1347132-06:00</Time>
     </Item>
     <Item>
       <Source>FireballBlue.png</Source>
@@ -160,8 +160,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\user\Desktop\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\FireballBlue.xnb</Output>
-      <Time>2016-12-14T17:06:38.1291026-06:00</Time>
+      <Output>H:\XNA\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\FireballBlue.xnb</Output>
+      <Time>2016-12-16T13:11:07.0253268-06:00</Time>
     </Item>
     <Item>
       <Source>FireballPink.png</Source>
@@ -169,8 +169,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\user\Desktop\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\FireballPink.xnb</Output>
-      <Time>2016-12-14T17:06:38.1441129-06:00</Time>
+      <Output>H:\XNA\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\FireballPink.xnb</Output>
+      <Time>2016-12-16T13:11:07.0722103-06:00</Time>
     </Item>
     <Item>
       <Source>altSmartBomb.png</Source>
@@ -178,8 +178,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\user\Desktop\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\altSmartBomb.xnb</Output>
-      <Time>2016-12-14T17:06:38.0100238-06:00</Time>
+      <Output>H:\XNA\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\altSmartBomb.xnb</Output>
+      <Time>2016-12-16T13:11:06.6346678-06:00</Time>
     </Item>
     <Item>
       <Source>Font.spritefont</Source>
@@ -187,8 +187,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\user\Desktop\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\Font.xnb</Output>
-      <Time>2016-12-14T17:06:38.1921439-06:00</Time>
+      <Output>H:\XNA\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\Font.xnb</Output>
+      <Time>2016-12-16T13:11:07.1815902-06:00</Time>
     </Item>
     <Item>
       <Source>missileCounting.wav</Source>
@@ -196,8 +196,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\user\Desktop\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\missileCounting.xnb</Output>
-      <Time>2016-12-14T17:06:38.3552534-06:00</Time>
+      <Output>H:\XNA\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\missileCounting.xnb</Output>
+      <Time>2016-12-16T13:11:07.6347546-06:00</Time>
     </Item>
     <Item>
       <Source>emptyBatteryLaunch.wav</Source>
@@ -205,8 +205,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\user\Desktop\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\emptyBatteryLaunch.xnb</Output>
-      <Time>2016-12-14T17:06:38.0960811-06:00</Time>
+      <Output>H:\XNA\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\emptyBatteryLaunch.xnb</Output>
+      <Time>2016-12-16T13:11:06.9159452-06:00</Time>
     </Item>
     <Item>
       <Source>levelStart.wav</Source>
@@ -214,8 +214,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\user\Desktop\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\levelStart.xnb</Output>
-      <Time>2016-12-14T17:06:38.3142247-06:00</Time>
+      <Output>H:\XNA\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\levelStart.xnb</Output>
+      <Time>2016-12-16T13:11:07.4628669-06:00</Time>
     </Item>
     <Item>
       <Source>missileLaunch.wav</Source>
@@ -223,8 +223,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\user\Desktop\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\missileLaunch.xnb</Output>
-      <Time>2016-12-14T17:06:38.7675253-06:00</Time>
+      <Output>H:\XNA\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\missileLaunch.xnb</Output>
+      <Time>2016-12-16T13:11:07.8066456-06:00</Time>
     </Item>
     <Item>
       <Source>missileExplosion.wav</Source>
@@ -232,8 +232,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\user\Desktop\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\missileExplosion.xnb</Output>
-      <Time>2016-12-14T17:06:38.3722635-06:00</Time>
+      <Output>H:\XNA\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\missileExplosion.xnb</Output>
+      <Time>2016-12-16T13:11:07.712888-06:00</Time>
     </Item>
     <Item>
       <Source>outofMissiles.wav</Source>
@@ -241,8 +241,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\user\Desktop\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\outofMissiles.xnb</Output>
-      <Time>2016-12-14T17:06:38.7995457-06:00</Time>
+      <Output>H:\XNA\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\outofMissiles.xnb</Output>
+      <Time>2016-12-16T13:11:07.9316564-06:00</Time>
     </Item>
     <Item>
       <Source>planealienSound.wav</Source>
@@ -250,8 +250,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\user\Desktop\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\planealienSound.xnb</Output>
-      <Time>2016-12-14T17:06:38.827565-06:00</Time>
+      <Output>H:\XNA\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\planealienSound.xnb</Output>
+      <Time>2016-12-16T13:11:08.0566671-06:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -260,39 +260,39 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\user\Desktop\MissileCommand\MissileCommand\MissileCommandContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\user\Desktop\MissileCommand\MissileCommand\MissileCommand\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\user\Desktop\MissileCommand\MissileCommand\MissileCommand\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\user\Desktop\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>H:\XNA\MissileCommand\MissileCommand\MissileCommandContent\</RootDirectory>
+      <LoggerRootDirectory>H:\XNA\MissileCommand\MissileCommand\MissileCommand\</LoggerRootDirectory>
+      <IntermediateDirectory>H:\XNA\MissileCommand\MissileCommand\MissileCommand\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>H:\XNA\MissileCommand\MissileCommand\MissileCommand\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
-        <Value>2011-09-01T16:22:30-05:00</Value>
+        <Value>2011-09-01T17:22:30-05:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
-        <Value>2011-09-01T16:22:30-05:00</Value>
+        <Value>2011-09-01T17:22:30-05:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
-        <Value>2011-09-01T16:22:30-05:00</Value>
+        <Value>2011-09-01T17:22:30-05:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
-        <Value>2011-09-01T16:22:30-05:00</Value>
+        <Value>2011-09-01T17:22:30-05:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
-        <Value>2011-09-01T16:22:30-05:00</Value>
+        <Value>2011-09-01T17:22:30-05:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
-        <Value>2011-09-01T16:22:30-05:00</Value>
+        <Value>2011-09-01T17:22:30-05:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2016-11-05T14:15:16.1476561-05:00</Value>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2016-12-05T17:29:51.3577614-06:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

@@ -74,6 +74,9 @@ namespace MissileCommand
             KB.onPress(Keys.Escape, this.Exit);
             objects = new List<GameObject>();
             this.state = GameState.Splash;
+            graphics.PreferredBackBufferHeight = 1080;
+            graphics.PreferredBackBufferWidth = 1920;
+            graphics.IsFullScreen = true;
         }
 
         protected override void Initialize()
@@ -195,6 +198,7 @@ namespace MissileCommand
                 { //3 cities destroyed this stage
                     this.state = GameState.TransitionToScoring;
                 }
+                if (this.objects.Where(o => (o is City && !(o as City).destroyed)).ToList().Count == 0) this.state = GameState.GameOver;
 
             }
 
@@ -209,6 +213,7 @@ namespace MissileCommand
                 this.objects = this.objects.Where(o => (o is City && !(o as City).destroyed) || (o is Battery)).ToList();
                 //add cities remaining to score
                 citiesLeftover = objects.OfType<City>().ToList().Count;
+                
                 citiesAtStart = objects.OfType<City>().ToList().Count;
                 //add remaining ammo to score and reload
                 ammoLeftover = 0;
@@ -250,6 +255,10 @@ namespace MissileCommand
 
         protected override void Draw(GameTime gameTime)
         {
+
+            RenderTarget2D target = new RenderTarget2D(GraphicsDevice, 800, 480);
+            GraphicsDevice.SetRenderTarget(target);
+
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             spriteBatch.Begin();
@@ -311,6 +320,14 @@ namespace MissileCommand
                 objects.ForEach(o => o.Draw(spriteBatch));
                 if (state == GameState.GameOver) spriteBatch.Draw(gameOverSplash, new Vector2(0, 0), Color.White);
             }
+            spriteBatch.End();
+
+            GraphicsDevice.SetRenderTarget(null);
+
+            //render target to back buffer
+            spriteBatch.Begin();
+            Console.WriteLine(GraphicsDevice.DisplayMode.Width + " " + GraphicsDevice.DisplayMode.Height);
+            spriteBatch.Draw(target, new Rectangle(0, 0, GraphicsDevice.DisplayMode.Width, GraphicsDevice.DisplayMode.Height), Color.White);
             spriteBatch.End();
 
             base.Draw(gameTime);
