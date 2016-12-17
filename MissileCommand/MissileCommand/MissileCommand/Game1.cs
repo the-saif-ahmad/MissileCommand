@@ -66,8 +66,6 @@ namespace MissileCommand
 
         public bool testSpawn = true;
 
-        private bool isFullScreen = false;
-
         public Game1()
         {
             Instance = this;
@@ -76,19 +74,10 @@ namespace MissileCommand
             KB.onPress(Keys.Escape, this.Exit);
             objects = new List<GameObject>();
             this.state = GameState.Splash;
-
-            if (isFullScreen)
-            {
-                graphics.PreferredBackBufferHeight = 1080;
-                graphics.PreferredBackBufferWidth = 1920;
-                graphics.IsFullScreen = true;
-            }
-            else
-            {
-                graphics.PreferredBackBufferHeight = 600;
-                graphics.PreferredBackBufferWidth = 480;
-                graphics.IsFullScreen = false;
-            }
+            
+            graphics.PreferredBackBufferHeight = 1080;
+            graphics.PreferredBackBufferWidth = 1920;
+            graphics.IsFullScreen = true;
         }
 
         protected override void Initialize()
