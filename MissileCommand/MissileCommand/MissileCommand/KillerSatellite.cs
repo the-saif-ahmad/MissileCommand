@@ -81,7 +81,7 @@ namespace MissileCommand
                 objects.Add(new Fireball(position));
             }
 
-                timeAlive++;
+            timeAlive++;
 
             if (timeAlive % ticks == 0)
                 Game1.planeAlienSound.Play();
