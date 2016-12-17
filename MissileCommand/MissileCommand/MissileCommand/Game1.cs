@@ -66,6 +66,8 @@ namespace MissileCommand
 
         public bool testSpawn = true;
 
+        private bool isFullScreen = false;
+
         public Game1()
         {
             Instance = this;
@@ -74,9 +76,19 @@ namespace MissileCommand
             KB.onPress(Keys.Escape, this.Exit);
             objects = new List<GameObject>();
             this.state = GameState.Splash;
-            graphics.PreferredBackBufferHeight = 1080;
-            graphics.PreferredBackBufferWidth = 1920;
-            graphics.IsFullScreen = true;
+
+            if (isFullScreen)
+            {
+                graphics.PreferredBackBufferHeight = 1080;
+                graphics.PreferredBackBufferWidth = 1920;
+                graphics.IsFullScreen = true;
+            }
+            else
+            {
+                graphics.PreferredBackBufferHeight = 600;
+                graphics.PreferredBackBufferWidth = 480;
+                graphics.IsFullScreen = false;
+            }
         }
 
         protected override void Initialize()
@@ -326,7 +338,7 @@ namespace MissileCommand
 
             //render target to back buffer
             spriteBatch.Begin();
-            Console.WriteLine(GraphicsDevice.DisplayMode.Width + " " + GraphicsDevice.DisplayMode.Height);
+            // Console.WriteLine(GraphicsDevice.DisplayMode.Width + " " + GraphicsDevice.DisplayMode.Height);
             spriteBatch.Draw(target, new Rectangle(0, 0, GraphicsDevice.DisplayMode.Width, GraphicsDevice.DisplayMode.Height), Color.White);
             spriteBatch.End();
 

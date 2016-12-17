@@ -76,7 +76,9 @@ namespace MissileCommand
             });
 
             if (toDestroy)
+            {
                 objects.Add(new Fireball(position));
+            }
 
             timeAlive++;
 
