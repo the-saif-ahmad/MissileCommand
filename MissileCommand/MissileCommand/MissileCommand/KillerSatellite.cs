@@ -43,7 +43,7 @@ namespace MissileCommand
 
         public KillerSatellite(bool position)
         {
-            this.position.X = position ? Game1.Instance.GraphicsDevice.Viewport.Width : 0;
+            this.position.X = position ? 480 : 0;
             this.position.Y = 100;
             direction = !position;
             spriteEffects = position ? SpriteEffects.FlipHorizontally : new SpriteEffects();
@@ -52,7 +52,7 @@ namespace MissileCommand
         public override void Update(List<GameObject> objects)
         {
             position.X += direction ? speed : -speed;
-            if (position.X <= 0 || position.X + size.X >= Game1.Instance.GraphicsDevice.Viewport.Width && timeAlive > speed * size.X)
+            if (position.X <= 0 || position.X + size.X >= 480 && timeAlive > speed * size.X)
             {
                 direction = !direction;
                 position.Y += dropDistance;
@@ -77,11 +77,9 @@ namespace MissileCommand
             });
 
             if (toDestroy)
-            {
                 objects.Add(new Fireball(position));
-            }
 
-            timeAlive++;
+                timeAlive++;
 
             if (timeAlive % ticks == 0)
                 Game1.planeAlienSound.Play();

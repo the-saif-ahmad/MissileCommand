@@ -106,13 +106,13 @@ namespace MissileCommand {
         }
 
         public override void Draw(SpriteBatch sb) {
-            sb.Draw(texture, Bounds, Color.White);
             crosshair.Draw(sb);
             Trail t = trail;
             while (t != null) {
                 sb.Draw(texture, t.Bounds, color);
                 t = t.next;
             }
+            sb.Draw(texture, Bounds, Color.White);
         }
 
         class Trail {
