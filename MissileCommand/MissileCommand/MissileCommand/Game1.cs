@@ -74,15 +74,24 @@ namespace MissileCommand
             KB.onPress(Keys.Escape, this.Exit);
             objects = new List<GameObject>();
             this.state = GameState.Splash;
-            
-            graphics.PreferredBackBufferHeight = 1080;
-            graphics.PreferredBackBufferWidth = 1920;
-            graphics.IsFullScreen = true;
         }
 
         protected override void Initialize()
         {
             base.Initialize();
+
+            //set screen size
+            graphics.PreferredBackBufferHeight = GraphicsDevice.DisplayMode.Height;
+            graphics.PreferredBackBufferWidth = GraphicsDevice.DisplayMode.Width;
+            graphics.IsFullScreen = true;
+            graphics.ApplyChanges();
+
+            resetGame();
+            
+        }
+
+        private void resetGame() {
+            objects = new List<GameObject>();
 
             objects.Add(new Battery(new Point(50, 410), Keys.Z, 3f));
             objects.Add(new Battery(new Point(371, 410), Keys.X, 4.5f));
@@ -97,6 +106,13 @@ namespace MissileCommand
 
             stageNumber = 1;
             numEnemyMissiles = 3 * stageNumber + 3;
+
+            enemyMissileSpeed = 0.5f;
+            score = 0;
+            citiesAtStart = 6;
+            timeScoring = 0;
+            ammoLeftover = -1;
+            citiesLeftover = 0;
         }
 
         protected override void LoadContent()
@@ -141,7 +157,9 @@ namespace MissileCommand
             Utilities.update();
             MouseState mouse = Mouse.GetState();
 
-            crosshairRect = new Rectangle(mouse.X - 7, mouse.Y - 7, 15, 15);
+            var pos = new Point((int)(mouse.X * (800f / GraphicsDevice.DisplayMode.Width)), (int)(mouse.Y * (480f / GraphicsDevice.DisplayMode.Height)));
+
+            crosshairRect = new Rectangle(pos.X - 7, pos.Y - 7, 15, 15);
 
             if (this.state == GameState.Splash)
             {
@@ -246,6 +264,10 @@ namespace MissileCommand
             {
                 objects.ForEach(o => o.Update(objects));
                 objects = objects.Where(o => !o.toDestroy).ToList();
+                if (Keyboard.GetState().IsKeyDown(Keys.Space)) {
+                    resetGame();
+                    this.state = GameState.Scoring;
+                }
             }
 
             base.Update(gameTime);
@@ -286,9 +308,9 @@ namespace MissileCommand
                     spriteBatch.DrawString(font, s, new Vector2(800 / 2 - size.X / 2, 140 - size.Y / 2), Color.LimeGreen);
 
                     int forAmmo = ammoLeftover > 0 ? 100 / ammoLeftover : 0;
-                    int forCities = 100 / citiesLeftover;
-                    int ammo = Math.Min(timeScoring / forAmmo, ammoLeftover);
-                    int cities = timeScoring > forAmmo * ammoLeftover ? Math.Min((timeScoring - (forAmmo * ammoLeftover)) / forCities, citiesLeftover) : 0;
+                    int forCities = citiesLeftover>0 ? 100 / citiesLeftover : 0;
+                    int ammo = forAmmo > 0 ? Math.Min(timeScoring / forAmmo, ammoLeftover) : 0;
+                    int cities = timeScoring > forAmmo * ammoLeftover && forCities>0 ? Math.Min((timeScoring - (forAmmo * ammoLeftover)) / forCities, citiesLeftover) : 0;
 
                     if (lastAmmo != ammo) counting.Play();
                     lastAmmo = ammo;
@@ -327,7 +349,7 @@ namespace MissileCommand
 
             //render target to back buffer
             spriteBatch.Begin();
-            // Console.WriteLine(GraphicsDevice.DisplayMode.Width + " " + GraphicsDevice.DisplayMode.Height);
+            //Console.WriteLine(GraphicsDevice.DisplayMode.Width + " " + GraphicsDevice.DisplayMode.Height);
             spriteBatch.Draw(target, new Rectangle(0, 0, GraphicsDevice.DisplayMode.Width, GraphicsDevice.DisplayMode.Height), Color.White);
             spriteBatch.End();
 

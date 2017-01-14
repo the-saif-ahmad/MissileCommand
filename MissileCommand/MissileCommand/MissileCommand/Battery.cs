@@ -112,8 +112,9 @@ namespace MissileCommand
 
             if (ammo > 0 && Game1.Instance.state == GameState.Playing && Game1.Instance.objects.Where(o => o is Missile && (o as Missile).friendly).ToList().Count < 3) {
                 ammo--;
-                var state = Mouse.GetState();
-                Game1.Instance.objects.Add(new Missile(new Vector2(this.position.X + (size.X / 2), this.position.Y - 2), new Point(state.X, state.Y), speed, true, Color.LimeGreen));
+                var mouse = Mouse.GetState();
+                var pos = new Point((int)(mouse.X * (800f / Game1.Instance.GraphicsDevice.DisplayMode.Width)), (int)(mouse.Y * (480f / Game1.Instance.GraphicsDevice.DisplayMode.Height)));
+                Game1.Instance.objects.Add(new Missile(new Vector2(this.position.X + (size.X / 2), this.position.Y - 2), new Point(pos.X, pos.Y), speed, true, Color.LimeGreen));
                 Game1.missileLaunch.Play();
             }
             else if (ammo <= 0) {

@@ -71,7 +71,7 @@ namespace MissileCommand
                         float direction = this.Bounds.Center.X - f.Bounds.Center.X;
                         float multiplier = 0.9f; // <- How easily it dodges fireballs; ^multiplier = ^dodging
 
-                        if (this.Bounds.Center.X > f.Bounds.Center.X)
+                        if (this.Bounds.Center.X > f.Bounds.Center.X + 10)
                         {
                             speedVector.X = (position.X - advancedPositions[i].X) / direction * multiplier;
                         }
